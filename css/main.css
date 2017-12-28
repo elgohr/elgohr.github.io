@@ -1,6 +1,7 @@
 body {
   margin: 60px auto;
   width: 70%;
+  font-family: 'monospace', 'Arial', 'Sans-Serif';
 }
 
 a {
@@ -14,29 +15,24 @@ p, ul {
   color: #333;
 }
 
-h1, h2, h3, h4 {
-  font-family: 'monospace', 'Arial', 'Sans-Serif';
-}
-
 h1 {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 h2 {
-  font-size: 2.7em;
+  font-size: 1.7em;
 }
 
 h3 {
-  font-size: 2.3em;
+  font-size: 1.3em;
 }
 
 h4 {
-  font-size: 1.9em;
+  font-size: 0.9em;
 }
 
 nav ul, footer ul {
   font-size: 1em;
-  font-family: 'monospace', 'Arial', 'Sans-Serif';
   padding: 0px;
   list-style: none;
   font-weight: bold;
