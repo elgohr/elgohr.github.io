@@ -16,7 +16,7 @@ I remembered my sadness, when Maven dropped the LATEST-feature in [Maven3.x](htt
 Maybe they had a sixth sense, looking at the joy of `npm install` today.
 
 But why did I like this feature?
-  
+
 There are probably some components, which are really stable and people don't go there very often to perform changes (never change a beloved, stable system).  
 This behavior leads to rotten code, because you often end up in a  _Ok, now we need to change this component. Let's upgrade the libraries from the last century_-situation.  
 
@@ -34,13 +34,15 @@ The plugin helps you to update the versions in your POM.xml to latest(release/sn
 The plugin can be used by executing  
 ```bash
 mvn versions:update-parent
-mvn versions:use-latest-releases```
+mvn versions:use-latest-releases
+```
 
 In this case `versions:update-parent` updates the POM.xml-parent version (if there is one) and `versions:use-latest-releases` updates the dependencies.
 
 Create a pipeline looking like  
 ```
-(Checkout-Git) -> (Run mvn versions) -> (Commit-Git)```  
+(Checkout-Git) -> (Run mvn versions) -> (Commit-Git)
+```  
 In this way you will always have a reproducible build, using your desired latest versions, which are updated automatically by Herbie. And automatic code-generation [tastes a bit like Google](https://cacm.acm.org/magazines/2016/7/204032-why-google-stores-billions-of-lines-of-code-in-a-single-repository/fulltext), so why don't give it a try?  
 
 Hint: As seen above, I didn't say anything about the trigger of the pipeline. I would try it out as a team, how much time you could spend on eventually new incompatibilities and when.
