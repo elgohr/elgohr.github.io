@@ -23,7 +23,7 @@ jobs:
         with:
           submodules: recursive
       - id: pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
       - uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
