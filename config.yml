@@ -1,0 +1,122 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "Hugo Profile"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1  
+
+params:
+  title: "Hugo Profile"
+  description: Text about my cool site
+  favicon: "/fav.png"
+  useBootstrapCDN: true
+  mathjax: false
+  animate: true
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  navbar:
+    align: ms-auto
+    showBrandLogo: false
+    brandName: "Lars Gohr"
+    disableSearch: false
+    searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: true
+      disableExperience: true
+      disableEducation: true
+      disableProjects: true
+      disableAchievements: true
+      disableContact: false
+
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Lars."
+    subtitle: "I build things"
+    content: "A passionate software engineer. I tend to make use of modern technologies to build software that helps people, feels fantastic and functions reliable."
+    image: /images/lars.png
+    bottomImage:
+      enable: true
+    button:
+      enable: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/elgohr
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/lars-gohr-86831126a/
+
+  about:
+    enable: false
+  experience:
+    enable: false 
+  education:
+    enable: false
+  achievements:
+    enable: false
+  projects:
+    enable: false
+  contact:
+    enable: false
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+  listPages:
+    disableFeaturedImage: false
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "02.01.2006"
+    articleList: "02.01.2006"
+    articleRecent: "02.01.2006"

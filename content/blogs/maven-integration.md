@@ -1,13 +1,19 @@
 ---
-layout: post
 title: "Maven Latest in Continuous Integration"
 date: 2017-12-27
+draft: false
+tags:
+  - Maven
+  - CI/CD
+  - Concourse
+description: "Howto use maven latest in CI/CD"
+toc: false
 ---
 
 `Disclaimer: This article requires a high automated test coverage. If you haven't got this, you should probably start your journey at http://blog.cleancoder.com/`
 
 In the past few weeks I played with the idea of self-driving, zero-maintenance jobs.
-Let's call them Herbie-Jobs :)  
+Let's call them Herbie-Jobs 🚗  
 
 The idea of using CI/CD pipelines inside [Concourse](https://concourse.ci/) or other tools, to update components isn't that new.
 Nevertheless I asked myself whether this could also be useful in daily software-development.  
