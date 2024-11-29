@@ -1,6 +1,6 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://elgohr.github.io"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Lars Gohr"
 theme: hugo-profile
 
 outputs:
@@ -29,8 +29,8 @@ Menus:
       weight: 1  
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Lars Gohr"
+  description: Blog about me and things I do
   favicon: "/fav.png"
   useBootstrapCDN: true
   mathjax: false
