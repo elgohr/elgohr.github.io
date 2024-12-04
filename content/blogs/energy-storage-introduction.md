@@ -10,6 +10,8 @@ tags:
 description: "Howto maximize energy savings"
 toc: true
 ---
+
+## Introduction
 In the quest for more sustainable and cost-effective energy solutions, combining a home battery storage system with a photovoltaic (PV) solar system and a dynamic energy contract offers a powerful way to optimize energy costs. This integrated approach allows homeowners to generate their own renewable energy, store it for later use, and take advantage of real-time fluctuations in electricity prices.  
 
 The PV system generates clean electricity during sunny periods, while the battery stores excess energy that would otherwise go unused. By utilizing a dynamic energy contract, which adjusts the price of electricity based on supply and demand throughout the day, homeowners can ensure that they use the most affordable energy when it's available, either drawing from the grid or from their battery storage.  
@@ -24,3 +26,7 @@ Today people would call it [HEMS](https://senec.com/de/magazin/hems).
 On the way I came around the question "Could I buy cheap and sell later?" (disclaimer: no).  
 
 This series will be continued from time to time.
+
+## Chapters
+
+- [Analysis](content/blogs/energy-storage-analysis.md)
