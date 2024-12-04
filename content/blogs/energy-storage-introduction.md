@@ -29,4 +29,4 @@ This series will be continued from time to time.
 
 ## Chapters
 
-- [Analysis](content/blogs/energy-storage-analysis.md)
+- [Analysis](/blogs/energy-storage-analysis/)
